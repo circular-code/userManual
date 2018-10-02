@@ -158,7 +158,6 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -203,4 +202,35 @@ html {
   font-weight: 400;
   /*  compensates rounding errors, in particular in older versions of Opera and Safari */
   font-size: 100.01%;
+}
+
+/** custom style **/
+
+header {
+  padding: 2rem 2rem 0 2rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+article {
+  padding: 2rem;
+  margin: 0 2rem 2rem 0;
+  flex-basis: 300px;
+  flex-grow: 1;
+  background: #f3f3f3;
+}
+
+h2 {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+
+article p {
+  margin-bottom: 0.8rem;
+  border-left: 2px solid #b9b9b9;
+  padding-left: 1rem;
 }
